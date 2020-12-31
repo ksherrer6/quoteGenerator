@@ -3,13 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Passive Life</title>
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=https://kovicmusic.com/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  
+    
+
 </head>
 <body>
-   <!-- script -->
-    <script src="script.js"></script>
+    <header>
+        <div class="pageWrapper" id="pageWrapper">
+        <h1 id="title">Passive Life</h1>
+        
+    </header>
+   
+    <div class="navBar" id="navBar">
+        <ul>
+           <li><a href="#home">HOME</a></li>
+           <li><a href="#income">INCOME</a></li>
+           <li><a href="#expense">EXPENSE</a></li>
+           <li><a href="#assets">ASSETS</a></li>
+           <li><a href="#liabs">LIABILITIES</a></li>
+        </ul>
+    </div>
+    <div class="mainBody" id="mainBody">main body goes here
+ <div class="grngrp" id="grngrp">
+  <div class="income sec" id="income">
+      <div class="incTitContain"id="incTitContain">
+      <h2 class="incomeTitle">income</h2>
+      </div>
+      <div class="passive" id="passive">passive income goes here</div>
+      
+       <div class="active" id="active">active income goe here</div>
+   </div>
+   
+   <div class="assets sec" id="assets">
+    <h2>assets</h2>
+    <div class="realEstate" id="realEstate">real estate assets goes here</div>
+<div class="paper" id="paper">paper assets goes here</div>
+ <div class="bus" id="bus">businesses goes here</div>
+ <div class="commods" id="commods">commodities goes here</div>
+ <div class="crypto" id="crypto">crypto currencies goes here</div>
+</div>
+</div>
+<div class="redgrp" id="redgrp">
+   <div class="expense sec" id="expense"><h2>expenses</h2>
+        <div class="fixed" id="fixed">fixed expenses goes here</div>
+        <div class="recurringE" id="recurringE">recurring expenses goes here</div>
+        <div class="nRecurringE" id="nRecurringE">non-recurring expenses goes here</div>
+        <div class="wham" id="wham">whammies goes here</div>
+    </div>
+
+   <div class="liabs sec" id="liabs">
+       <h2>liabilities</h2>
+       <div class="mort" id="mort">mortgage goes here</div>
+       <div class="credCards" id="credCards">credit cards goes here</div>
+        <div class="loans" id="loans"><h3>loans</h3><div class="cLoan" id="cLoan">carloan</div></div>
+        <div class="sLoan" id="sLoan">studen loan</div>
+        <div class="pLoan" id="pLoan">personal loans</div>
+
+   </div>
+   </div>
+  
+</div> <!-- pageWrapper div -->
+   
+   
+    <!-- script -->
+    <script src="script.js">function mOver(obj) {
+        obj.innerHTML = "Thank You"
+      }
+      
+      function mOut(obj) {
+        obj.innerHTML = "Mouse Over Me"
+      }</script>
+    
 </body>
 </html>
